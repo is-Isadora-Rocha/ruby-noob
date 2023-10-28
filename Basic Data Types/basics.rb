@@ -5,11 +5,11 @@ class Person
         @age = age
     end
 
-    def introduce #função/método
+    def introduce 
         "Olá, meu nome é #{@name} e eu tenho #{@age} anos."
     end
 
-    def adult?
+    def adult? #função/método
         @age >= 18
         #a última do método funciona como retorno
     end
