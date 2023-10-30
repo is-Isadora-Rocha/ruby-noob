@@ -12,7 +12,23 @@ end
 
 #exemplo de herança
 class Person < RichPerson
-    def initialize(name, age) #função/método
+
+    attr_reader :name, :age
+=begin
+	é o mesmo que,
+
+    def name 
+        @name
+    end
+
+    def age 
+        @age
+    end
+=end
+
+
+#função/método
+    def initialize(name, age) 
         #variaveis globais
         @name = name
         @age = age
