@@ -26,6 +26,12 @@ class Person < RichPerson
     end
 =end
 
+# para atribuir valores dos atributos
+    attr_writer :name, :age
+
+# funciona como READER e WRITER 
+# getter e setter
+    attr_accessor :name, :age
 
 #função/método
     def initialize(name, age) 
@@ -38,6 +44,9 @@ class Person < RichPerson
         "Olá, meu nome é #{@name} e eu tenho #{@age} anos."
     end
 
+    def name=(name)
+        @name = name
+    end
     def adult? #função/método
         @age >= 18
         #a última do método funciona como retorno
