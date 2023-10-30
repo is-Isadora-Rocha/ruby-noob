@@ -1,5 +1,10 @@
 # ruby-noob
 Primeiros passos em linguagem Ruby
 
-* para executar:
-  PS C:\...\ruby-noob\(nomeDaPasta)> irb nomeDaClasse.rb
+## Para executar:
+No terminal digitar
+#### irb 
+``irb(main):001:0>``
+
+## Se houver alguns problemas em load:
+``PS C:\...\ruby-noob\(nomeDaPasta)> irb nomeDaClasse.rb``
