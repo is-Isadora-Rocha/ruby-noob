@@ -7,4 +7,7 @@ No terminal digitar
 ``irb(main):001:0>``
 
 ## Se houver alguns problemas em load:
-``PS C:\...\ruby-noob\(nomeDaPasta)> irb nomeDaClasse.rb``
+Entrar na pasta que esteja o projeto
+``cd nomeDaPasta``
+``irb nomeDaClasse``
+PS C:\...\ruby-noob\(nomeDaPasta)> irb nomeDaClasse.rb
